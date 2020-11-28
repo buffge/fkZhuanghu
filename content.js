@@ -20,7 +20,7 @@ function fkGeneral(sectionSelector, titleSelector) {
   })
 }
 function fkHome() {
-  this.fkGeneral(indexSectionSelector, indexSectionTitleSelector)
+  fkGeneral(indexSectionSelector, indexSectionTitleSelector)
 }
 
 function fkHot() {
