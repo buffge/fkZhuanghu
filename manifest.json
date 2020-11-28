@@ -1,0 +1,27 @@
+  {
+    "manifest_version": 2,
+    "name": "Fk Zhuanghu",
+    "version": "1.0.0",
+    "description": "自动过滤装乎体文章",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.zhihu.com/*"
+        ],
+        "js": [
+          "content.js"
+        ],
+        "run_at": "document_end"
+      }
+    ],
+    "permissions": [
+      "contextMenus",
+      "tabs",
+      "notifications",
+      "webRequest",
+      "webRequestBlocking",
+      "storage",
+      "http://*/*",
+      "https://*/*"
+    ] 
+  }

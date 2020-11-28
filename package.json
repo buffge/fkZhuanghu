@@ -1,0 +1,11 @@
+{
+  "name": "fkzhuanghu",
+  "description": "自动过滤装乎体文章",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "buffge <buffgek@qq.com>",
+  "license": "MIT",
+  "scripts": {
+
+  }
+}
